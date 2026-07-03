@@ -1,3 +1,13 @@
 ignoredBuiltDependencies:
   - sharp
   - unrs-resolver
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
+minimumReleaseAgeExclude:
+  - '@emnapi/runtime@1.11.2'
+  - 'baseline-browser-mapping@2.10.41'
+  - 'electron-to-chromium@1.5.385'
+  - 'eslint-module-utils@2.14.0'
+  - 'picomatch@4.0.5'
+
